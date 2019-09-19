@@ -5,7 +5,7 @@ import com.rabbitmq.client.*;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-public class Consumer02_routing_sms {
+public class Consumer03_routing_sms {
     //队列名称
     private static final String QUEUE_INFORM_SMS = "queue_inform_sms";
     private static final String EXCHANGE_ROUTING_INFORM = "exchange_routing_inform";
