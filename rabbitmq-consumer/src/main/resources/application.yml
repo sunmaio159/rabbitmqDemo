@@ -1,0 +1,16 @@
+server:
+  port: 44000
+spring:
+  application:
+    name: test-rabbitmq-consumer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8
+    data-username: root
+    data-password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
