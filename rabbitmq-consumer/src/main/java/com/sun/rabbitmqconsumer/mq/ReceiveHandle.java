@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 public class ReceiveHandle {
     @RabbitListener(queues = {RabbitmqConfig.QUEUE_INFORM_EMAIL})
     public void send_email(String msg, Message message, Channel channel){
+
         System.out.println("receive message is: "+ msg);
     }
 }
